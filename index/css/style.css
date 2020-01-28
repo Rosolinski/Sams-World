@@ -1,0 +1,203 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+audio:not([controls]){display:none;height:0}[hidden]{display:none}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+html,button,input,select,textarea{font-family:sans-serif}
+body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}
+mark{background:#ff0;color:#000}
+p,pre{margin:1em 0}
+code,kbd,pre,samp{font-family:monospace,serif;_font-family:"courier new",monospace;font-size:1em}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+q{quotes:none}
+q:before,q:after{content:'';content:none}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}sub{bottom:-0.25em}
+dl,menu,ol,ul{margin:1em 0}
+dd{margin:0 0 0 40px}
+menu,ol,ul{padding:0 0 0 40px}
+nav ul,nav ol{list-style:none;list-style-image:none}
+img{border:0;-ms-interpolation-mode:bicubic}
+svg:not(:root){overflow:hidden}
+figure{margin:0}form{margin:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:0.35em 0.625em 0.75em}
+legend{border:0;padding:0;white-space:normal;*margin-left:-7px}
+table{border-collapse:collapse;border-spacing:0}
+body{font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+img{vertical-align:middle}
+fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}
+.ir{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px}
+.ir:before{content:"";display:block;width:0;height:100%}
+body{font-family:'Ubuntu';font-weight:300;font-style:normal;color:#3d3d3d;width:100%;height:100%;background:#d49e99}
+em{font-weight:500;font-style:normal}
+img{position:absolute}
+
+
+
+/* Next and back to top button */
+
+nav{position:fixed;z-index:9999;margin:0 30px 0 0;padding:0;right:0;bottom:20px;text-align:center;font-size:13px}
+nav ul li{text-indent:-9999px;width:16px;height:16px;padding:8px;margin-top:5px;border-radius:16px;background:#4a4a4a url(../img/arrow-down.png) 8px 9px no-repeat;color:#FFFFFF;cursor:pointer}
+nav ul li.inactive{display:none}
+nav ul li:hover{background-color:#666666}
+nav ul li:active{background-color:#2b2b2b}
+
+/* Next and back to top button */
+
+/* Body */
+
+#skrollr-body{width:100%;height:100%}
+.container{width:100%;height:100%;position:fixed;background:#354250;display:none}
+.scene{position:fixed;width:100%;height:100%}
+
+/* Body */
+
+/* sam */
+
+.character-container{width:100%;height:100%;top:0}
+.character-container-inner{width:1000px;height:94%;min-height:400px;margin:0 auto;padding:3% 0;position:relative}
+img.sam{top:700px;left:30px;max-width:190px;max-height:597px;height:80%;z-index:9999;}
+img.sambirdseye{top:700px;left:30px;max-width:245px;max-height:597px;z-index:0}
+img.sambike{top:100px;left:30px;max-width:345px;max-height:697px;z-index:-9998}
+img.sam2{top:360px;left:420px;max-width:190px;max-height:597px;height:80%}
+img.sam3{top:260px;left:420px}
+
+
+/* sam */
+
+
+/* sky */
+
+.scroll-message{position:absolute;left:20px;color:#FFFFFF;top:23px}
+.scroll-message:after{content:url("../img/scroll-arrow.png");position:relative;top:75px;left:10px;opacity:0.8}
+.sky{height:200px;background:#8cc9dc}
+.sky-inner{width:1000px;height:100%;margin:0 auto;position:relative;min-height:200px;overflow:hidden}
+.title{height:100%;min-height:200px}
+.title img{}
+img.logo{margin-top:35px;max-width:700px;max-height:300px;left:250px}
+img.stars{max-width:619px;max-height:189px;margin:0 4%;left:22%}
+img.moon{margin-top:20px;max-width:95px;max-height:120px;right:0}
+img.sun{max-width:300px;max-height:300px;right:0;top:2%}
+
+/* sky */
+
+/* Bar*/
+
+img.bed-sheet,img.bed-frame{max-width:369px;max-height:525px;top:50%;left:-55%;z-index:9999}
+.bar{height:100%;background-image:url(../img/bar.png)}
+.floor-inner{width:1000px;height:94%;min-height:400px;margin:0 auto;padding:3% 0;position:relative}
+.floor-inner-below{width:1000px;height:35%;min-height:200px;margin:0 auto;padding:0;position:relative;top:-35%}
+img.mirror2{background:transparent no-repeat 0 0;max-width:888px;max-height:373px;height:60%;top:12%;left:-50%;z-index:2}
+img.barman{max-width:295px;max-height:395px;top:28.5%;right:50%}
+
+.film-container2{position:absolute;overflow:hidden;width:870px;height:359px;top:379px;left:-491px;z-index:9999}
+iframe#player2{border:none;background:#ccc;z-index:9999}
+.film-container11{position:absolute;overflow:hidden;width:870px;height:359px;top:2079px;left:2082px;z-index:2}
+iframe#player11{border:none;background:#ccc}
+
+/* Bar */
+
+/* street */
+
+.bathroom-wall{height:100%;background-image:url(../img/street%20draft.png);min-height:300px}
+.wall-inner{width:1000px;height:100%;margin:0 auto;position:relative;min-height:300px}
+img.mirror,img.mirror-text{top:10%;max-width:350px;max-height:223px;height:70%;min-height:200px}
+img.shelf{left:50%;top:50%}
+img.shop{left:47%;top:86%;}
+img.gassylassy{left:47%;top:62%;}
+img.window{top:20%;left:70%}
+
+.bathroom-floor{height:64%;background:transparent url("../img/bathroom-tile.png") 0 0}
+img.bathroom-sink{top:10%;left:3%;height:50%;max-width:270px;max-height:344px}
+img.bathroom-mat{top:400px;left:360px;height:50%;max-width:411px;max-height:152px}
+img.bath{left:36%;top:140px}
+img.bathroom-chair{right:3%;max-width:104px;max-height:259px;height:50%;top:14%}
+
+.film-container3{position:absolute;overflow:hidden;width:370px;height:200px;top:699px;left:1094px;z-index:9999}
+iframe#player3{border:none;background:#ccc;z-index:9999}
+
+/* street */
+
+/* shop */
+
+.wardrobe-wall{height:100%;background-image:url(../img/shop.png);min-height:300px}
+img.wardrobe,img.wardrobe-rail{top:20%}
+img.picture-frame,img.picture-frame-icons{right:1%;top:22%}
+.wardrobe-floor{height:0%;background:#c1e2ec}
+img.lamp{max-width:186px;max-height:243px;height:100%;right:0;margin-top:20%}
+img.wardrobe-rug{max-width:370px;max-height:100%;min-height:100px;top:50%;left:30%}
+.film-container4{position:absolute;overflow:hidden;width:870px;height:359px;top:330px;right:-55%;z-index:9999}
+iframe#player4{border:none;background:#ccc;z-index:9999}
+
+/* shop */
+
+/* Graveyard */
+
+.kitchen-wall{height:75%;max-height:1100px;background-image:url(../img/gravyard.png);min-height:300px}
+.kitchen-wall-inner{width:1000px;height:100%;margin:0 auto;position:relative;min-height:300px;max-height:347px}
+img.tree{max-height:650px;max-width:631px;right:0;height:120%;top:185%}
+img.womancrying{right:-50%;top:20%}
+img.dirt{left:73%;top:40%; z-index:9999;}
+img.reverend{top:238%}
+img.churchwoman{top:80%;left:45%}
+img.grave{right:-20%;top:40%}
+.kitchen-floor{height:25%;background:#9db89b}
+img.church{top:3px}
+.film-container5{position:absolute;overflow:hidden;width:870px;height:359px;top:1028px;left:840px;z-index:2}
+iframe#player5{border:none;background:#ccc}
+
+/* Graveyard */
+
+/* chav */
+
+.road-message{width:300px;top:180px;left:59%;padding-top:22px;font-size:18px;line-height:30px}
+
+.grass{background:#acc666}
+.road{width:2550px;height:4000px;margin:0 auto;position:relative;background:transparent url(../img/bike.png) 0 0}
+.car-container{width:1000px;margin:0 auto;position:relative;top:70px;z-index:100}
+.car-container-inner{width:254px;height:435px;position:absolute}
+.film-container6{position:absolute;overflow:hidden;top:145px;left:-625px;z-index:2}
+iframe#player6{border:none;background:#ccc}
+
+
+/* chav */
+
+/* street 2 */
+
+.space{width:100%;height:100%;background-image:url(../img/second%20street.png)}
+.stars-blurred{width:100%;height:100%;background:transparent url("../img/stars-blurred.png")}
+.space-stars{width:100%;height:100%;background:transparent url("../img/space-stars.png")}
+.space-container{width:1000px;height:100%;margin:0 auto;position:relative}
+
+.film-container7{position:absolute;overflow:hidden;width:870px;height:359px;top:525px;left:-582px;z-index:2}
+iframe#player7{border:none;background:#ccc}
+
+/* street 2 */
+
+/* living room end */
+
+.house{width:100%;height:100%; background-image:url(../img/house.png)}
+.living-room-container{width:1000px;height:100%;margin:0 auto;position:relative}
+audio {position:absolute;overflow:hidden;width:105px;height:359px;top:550px;left:2043px;z-index:2}
+
+
+.final-message{padding:14px 40px 0;font-size:20px;text-align:center;line-height:33px}
+img.samdirty{top:700px;right:0; }
+img.small-tree{top:680px;left:620px}
+img.radio{top:700px;left:420px}
+
+.back-to-top{color:#cbd1cd;cursor:pointer;position:relative;top:5px;left:45px}
+.back-to-top:before{content:url("../img/back-to-top-icon.png");position:relative;top:10px;padding-right:10px}
+.logos{position:absolute;top:500px;left:20px}
+.logos>div{float:left}
+.logos span{font-size:13px;color:#FFFFFF;position:relative;text-align:center;display:inline-block;margin-bottom:10px;width:100%}
+.film-container8{position:absolute;overflow:hidden;width:870px;height:359px;top:250px;left:320px;z-index:2}
+iframe#player8{border:none;background:#ccc}
+.film-container9{position:absolute;overflow:hidden;width:870px;height:359px;top:250px;left:1030px;z-index:2}
+iframe#player9{border:none;background:#ccc}
+.film-container10{position:absolute;overflow:hidden;width:870px;height:359px;top:250px;left:1730px;z-index:2}
+iframe#player10{border:none;background:#ccc}
+
+
+/* living room end */
